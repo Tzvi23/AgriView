@@ -1,2 +1,2 @@
 # AgriView
-MaTlab Project Fruit Recognition
+MatLab Project Fruit Recognition
