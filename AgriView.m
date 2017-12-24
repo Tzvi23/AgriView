@@ -1,5 +1,6 @@
 function AgriView()
 %Authors: Tzvi Puchinsky,Elad Ben Avraham,Michael Afonin,Alla Kitaeva
+cd(fileparts(which(mfilename))); %Changes Directory to Current
 choice = 99;
 fullImageFileName = 0;
 %Loads aprroved+rejected+fail+logo pictures
