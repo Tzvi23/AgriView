@@ -619,19 +619,3 @@ function []=ApRe(answer,Approved,Rejected,Fail)
         imshow(Rejected);
     end
 end
-%%Picture Acquisition
-% vid = videoinput('winvideo', 1, 'YUY2_1024x576');
-% src = getselectedsource(vid);
-% 
-% vid.FramesPerTrigger = 1;
-% 
-% vid.ReturnedColorspace = 'rgb';
-% 
-% vid.FramesPerTrigger = 22;
-% 
-% preview(vid);
-% 
-% start(vid);
-% 
-% stoppreview(vid);
-% ImageTest = getdata(vid);
